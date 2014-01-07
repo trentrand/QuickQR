@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/firstNameTF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:hint="@string/firstName"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lastNameTF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:hint="@string/lastName"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/companyTF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/company" />
+
+    <EditText
+        android:id="@+id/phoneNumberTF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phonennumber"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/emailTF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/addressTF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/cityTF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:hint="@string/city" />
+
+        <EditText
+            android:id="@+id/stateTF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0.15"
+            android:hint="@string/state" />
+
+        <EditText
+            android:id="@+id/zipTF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.32"
+            android:hint="@string/zip" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/websiteTF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/website" />
+
+    <Button
+        android:id="@+id/generateqr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generateqr" />
+
+
+    <ImageView
+        android:id="@+id/contactQRImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25" />
+
+</LinearLayout>

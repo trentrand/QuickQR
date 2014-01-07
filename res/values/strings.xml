@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fullname">Enter your full name</string>
+    <string name="generateqr">Generate</string>
+    <string name="company">Company</string>
+    <string name="phonennumber">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="website">Website</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="zip">Zip Code</string>
+    <string name="country">Country</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last</string>
+    <string name="nightmareappswebsite">NightmareApps.com</string>
+    <string name="goBack">Go Back</string>
+</resources>
